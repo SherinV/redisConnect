@@ -16,3 +16,11 @@ Run Job in OCP cluster
 oc login ...
 oc apply -f deploy/redisconnect_job.yaml
 ```
+
+**Instructions to deploy redisConnect image without cloning repo**
+
+1. Apply the job yaml   
+  **oc apply -f https://github.com/SherinV/redisConnect/blob/main/deploy/redisconnect_job.yaml\?raw\=true**
+2. You should see a redisconnect job created and a redisconnect-xxx pod starting
+3. Collect logs of redisconnect-xxx pod with
+  oc logs redisconnect-xxx
