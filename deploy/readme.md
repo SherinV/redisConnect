@@ -32,6 +32,6 @@ Rough calculation from redis-data logs
 Questions?  
 
 Check the ratio of replication controllers (54461) to pods(11828) in total?  
-Assumption: Maybe some of the replication controllers are old and needs to be cleaned up?  
+Assumption: Maybe some of the replication controllers are old and can be removed?  
 `oc get rc -A  `
 
