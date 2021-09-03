@@ -28,3 +28,8 @@ Rough calculation from redis-data logs
 |ocp - Percent	of Nodes	|	|	|		0.18|		0.16|		0.15|		0.14|		0.02|	|	0.34|
 |Total	|419409	|149098	|75148	|71452	|56498	|54461	|11828	|4.40Gi|	|
 
+Questions?
+Check the ratio of replication controllers (54461) to pods(11828) in total?
+Assumption: Maybe some of the replication controllers are old and needs to be cleaned up?
+oc get rc -A
+
