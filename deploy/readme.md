@@ -35,3 +35,6 @@ Check the ratio of replication controllers (54461) to pods(11828) in total?
 Assumption: Maybe some of the replication controllers are old and can be removed?  
 `oc get rc -A  `
 
+Refer:
+https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes/issues/29
+https://github.com/kubernetes/kubernetes/issues/24330
